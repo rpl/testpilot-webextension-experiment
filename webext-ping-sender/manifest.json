@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "background": {
+    "scripts": ["background-page.js"]
+  },
+
+  "name": "webext-ping-sender",
+  "version": "1.0.0",
+  "description": "A WebExtenion testpilot ping sender example",
+  "applications": {
+    "gecko": {
+      "id": "webext-ping-sender@mozilla.com"
+    }
+  }
+}

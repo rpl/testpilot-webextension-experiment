@@ -1,0 +1,16 @@
+{
+  "title": "sdk-ping-receiver",
+  "name": "sdk-ping-receiver",
+  "version": "0.0.1",
+  "description": "An SDK testpilot ping received example",
+  "main": "index.js",
+  "author": "Luca Greco <lgreco@mozilla.com>",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MPL-2.0",
+  "keywords": [
+    "jetpack"
+  ]
+}
