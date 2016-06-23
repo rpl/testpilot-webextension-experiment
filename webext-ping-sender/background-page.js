@@ -1,11 +1,9 @@
-browser.runtime.sendMessage({
-  testpilotPingData: {
-    boolData: true,
-    arrayOfData: ["one", "two", "three"],
-    nestedData: {
-      intData: 10,
-    },
+var testpilotPingChannel = new BroadcastChannel("testpilot-pings");
+testpilotPingChannel.postMessage({
+  boolData: true,
+  arrayOfData: ["one", "two", "three"],
+  nestedData: {
+    intData: 10,
   },
-}, (reply) => {
-  console.log("TEST PILOT PING REPLY RECEIVED", reply);
 });
+console.log("TEST PILOT PING SENT");
